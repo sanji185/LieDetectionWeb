@@ -1,7 +1,7 @@
 # LieDetectionWeb
 USJP Research final product flutter web development
 
-<img src="https://user-images.githubusercontent.com/59352357/178116578-2dac6308-982f-4ab4-89d3-ba941c75a647.png" width="600" height="450">
+<img src="https://user-images.githubusercontent.com/59352357/178116578-2dac6308-982f-4ab4-89d3-ba941c75a647.png" width="650" height="400">
 ![image](https://user-images.githubusercontent.com/59352357/178116578-2dac6308-982f-4ab4-89d3-ba941c75a647.png =250x250)
 ![image](https://user-images.githubusercontent.com/59352357/178116655-58703066-2052-41a2-8348-d2a35fde05ec.png =250x250)
 ![image](https://user-images.githubusercontent.com/59352357/178116682-d8f695e6-ed8f-4764-ada5-fb9548c214d5.png =250x250)
