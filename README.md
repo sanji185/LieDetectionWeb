@@ -2,7 +2,7 @@
 USJP Research final product flutter web development
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name](https://user-images.githubusercontent.com/59352357/178116578-2dac6308-982f-4ab4-89d3-ba941c75a647.png">
+  <a href="https://github.com/sanji185/LieDetectionWeb">
     <img src="https://user-images.githubusercontent.com/59352357/178116578-2dac6308-982f-4ab4-89d3-ba941c75a647.png" width="600" height="400">
   </a>
 
