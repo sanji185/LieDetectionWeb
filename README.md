@@ -1,7 +1,7 @@
-# Lie Detector Website Using Flutter
+# Lie Detector Website 
 ## About The Project
 An instrument or software tool for determining whether a person is telling the truth by testing for physiological changes considered to be associated with lying. lie detection, is an invaluable skill that can strongly influence the outcome of relevant situations such as court trials and police interrogatories. Several devices currently exist and are being used (e.g., magnetic resonance and polygraphs) <br>
-`This is our USJP final year research project`
+`This is our USJP final year research project` <br> `Using Flutter`
 <br />
 ## About The All Pages
 <div align="center">
