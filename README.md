@@ -3,7 +3,7 @@
 An instrument or software tool for determining whether a person is telling the truth by testing for physiological changes considered to be associated with lying. lie detection, is an invaluable skill that can strongly influence the outcome of relevant situations such as court trials and police interrogatories. Several devices currently exist and are being used (e.g., magnetic resonance and polygraphs) <br>
 `This is our USJP final year research project` <br> `Using Flutter`
 <br />
-## About The All Pages
+## All about pages
 <div align="center">
   <a href="https://github.com/sanji185/LieDetectionWeb">
     <img src="https://user-images.githubusercontent.com/59352357/178116578-2dac6308-982f-4ab4-89d3-ba941c75a647.png" width="600" height="400">
