@@ -112,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: TabBarView(
                       children: [
                         HomeTabScreen(),
-                        ChewieDemo(),
+                        WebVideoPlayer(),
                         Icon(Icons.directions_transit, size: 350),
                         Icon(Icons.directions_car, size: 350),
                         Icon(Icons.directions_transit, size: 350),
@@ -205,7 +205,10 @@ class _HomeTabScreenState extends State<HomeTabScreen> {
         ),
         Expanded(
           flex: 3,
-          child: Container(color: Colors.amber),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15.sp, vertical: 5.sp),
+            child: const WebVideoPlayer(),
+          ),
         )
       ],
     );
