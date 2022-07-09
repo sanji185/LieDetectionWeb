@@ -35,14 +35,14 @@ class MyApp extends StatelessWidget {
             appBarTheme: NeumorphicAppBarThemeData(
               color: colorPrimary,
               textStyle: TextStyle(
-                  fontFamily: "Roboto",
+                  fontFamily: "Poppins",
                   fontSize: 19.sp,
                   color: Colors.white,
                   fontWeight: FontWeight.w400),
             ),
           ),
           darkTheme: const NeumorphicThemeData(
-            baseColor: colorDark,
+            baseColor: colorPrimary,
             lightSource: LightSource.topLeft,
             depth: 6,
           ),

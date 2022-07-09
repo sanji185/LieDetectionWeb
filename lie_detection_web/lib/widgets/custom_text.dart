@@ -1,16 +1,23 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:flutter/material.dart';
+import 'package:sizer/sizer.dart';
 
 class CText extends StatelessWidget {
-  final String msg;
-  final double fontSize;
-  final Color color;
-  final FontWeight fontWeight;
-  const CText({
+  String msg;
+  String? fontFamily = 'Poppins';
+  double? fontSize = 5.sp;
+  double? height = 1.0;
+  Color? color = Colors.black;
+  FontWeight? fontWeight = FontWeight.normal;
+  CText({
     Key? key,
     required this.msg,
-    required this.fontSize,
-    required this.color,
-    required this.fontWeight,
+    this.fontFamily,
+    this.fontSize,
+    this.height,
+    this.color,
+    this.fontWeight,
   }) : super(key: key);
 
   @override
@@ -18,11 +25,11 @@ class CText extends StatelessWidget {
     return Text(
       msg,
       style: TextStyle(
-        fontSize: fontSize,
-        fontWeight: fontWeight,
-        color: color,
-        fontFamily: "Roboto",
-      ),
+          fontSize: fontSize,
+          fontWeight: fontWeight,
+          color: color,
+          fontFamily: fontFamily,
+          height: height),
     );
   }
 }

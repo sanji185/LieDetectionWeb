@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
 
-const Color colorPrimary = Color(0xffF2F1F1);
-const Color colorSecondary = Color(0xffF3F1F5);
-const Color colorHeading = Color(0xff007600);
-const Color colorDark = Color(0xff343235);
+const Color colorPrimary = Color(0xff85FFDA);
+const Color colorSecondary = Color(0xffEBFDF9);
+const Color colorFontHighlighter = Color(0xff4C8900);
+const Color colorFont = Color(0xff707070);
 
-const String instruction1 =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant dignissim nunc id sollicitudin id nisl acilisis posuere tristique. Vel lorem cras gravida id nullam. Proin iaculis quam augue faucibus quis non nisl. Tincidunt risus sit mauris porta nullam faucibus.";
-const String instruction2 =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant dignissim nunc id sollicitudin id nisl acilisis posuere tristique. Vel lorem cras gravida id nullam. Proin iaculis quam augue faucibus quis non nisl. Tincidunt risus sit mauris porta nullam faucibus.";
-const String instruction3 =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant dignissim nunc id sollicitudin id nisl acilisis posuere tristique. Vel lorem cras gravida id nullam. Proin iaculis quam augue faucibus quis non nisl. Tincidunt risus sit mauris porta nullam faucibus.";
-
+const String lieDetectorInstruction =
+    "An instrument or software tool for determining whether a person is telling the truth by testing for physiological changes considered to be associated with lying. lie detection, is an invaluable skill that can strongly influence the outcome of relevant situations such as court trials and police interrogatories. Several devices currently exist and are being used (e.g., magnetic resonance and polygraphs).";
 const bgDecoration = BoxDecoration(
     image:
         DecorationImage(image: AssetImage("images/bg.png"), fit: BoxFit.cover));

@@ -31,10 +31,19 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/images/SvgIcons/
-
+    - assets/images/Icons/SvgIcons/
+    - assets/images/Icons/
   fonts:
-    - family: Roboto
+    - family: Poppins
       fonts:
-        - asset: assets/fonts/Roboto-Medium.ttf
-        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+    
+    - family: Poppins-ExtraBold
+      fonts:
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+      
+    
