@@ -5,19 +5,9 @@ import 'package:lie_detection_web/widgets/player_controller.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 import 'package:video_player/video_player.dart';
 
-Map<String, dynamic> videoData = {
-  "items": [
-    {
-      "title": "Demo Video",
-      "image": "images/rio_from_above_poster.jpg",
-      "url":
-          "https://github.com/GeekyAnts/flick-video-player-demo-videos/blob/master/example/rio_from_above_compressed.mp4?raw=true",
-    },
-  ]
-};
-
 class WebVideoPlayer extends StatefulWidget {
-  const WebVideoPlayer({Key? key}) : super(key: key);
+  final Map<String, dynamic> videoData;
+  const WebVideoPlayer({Key? key, required this.videoData}) : super(key: key);
 
   @override
   // ignore: library_private_types_in_public_api
@@ -31,7 +21,7 @@ class _WebVideoPlayerState extends State<WebVideoPlayer> {
     super.initState();
     flickManager = FlickManager(
       videoPlayerController:
-          VideoPlayerController.network(videoData["items"][0]["url"]),
+          VideoPlayerController.network(widget.videoData["items"][0]["url"]),
     );
   }
 
