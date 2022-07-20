@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   const Expanded(
-                    flex: 4,
+                    flex: 5,
                     child: TabBarView(
                       children: [
                         HomeTabScreen(),
@@ -81,7 +81,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       ],
                     ),
                   ),
-                  const FlexSpacer(),
                 ],
               ),
             ),

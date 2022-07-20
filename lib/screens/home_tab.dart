@@ -5,8 +5,8 @@ import 'package:sizer/sizer.dart';
 import '../helper/data.dart';
 import '../helper/style.dart';
 import '../widgets/custom_text.dart';
-import '../widgets/player.dart';
 import '../widgets/spacer.dart';
+import '../widgets/video_player.dart';
 
 class HomeTabScreen extends StatefulWidget {
   const HomeTabScreen({Key? key}) : super(key: key);
@@ -18,57 +18,60 @@ class HomeTabScreen extends StatefulWidget {
 class _HomeTabScreenState extends State<HomeTabScreen> {
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Column(
       children: [
         Expanded(
           flex: 4,
           child: Row(
             children: [
-              const FlexSpacer(),
               Expanded(
                 flex: 4,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                child: Row(
                   children: [
+                    const FlexSpacer(),
                     Expanded(
-                      flex: 1,
-                      child: CText(
-                        msg: "Lie Detector ",
-                        fontSize: 10.sp,
-                        fontFamily: "Poppins-ExtraBold",
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                    Expanded(
-                      flex: 3,
-                      child: CText(
-                        msg: lieDetectorInstruction,
-                        fontSize: 4.sp,
-                        color: colorFont,
-                        height: .28.sp,
-                      ),
-                    ),
-                    Expanded(
-                      flex: 1,
-                      child: Button(
-                        name: "More...",
-                        onPressed: () {},
+                      flex: 4,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Expanded(
+                            flex: 1,
+                            child: CText(
+                              msg: "Lie Detector ",
+                              fontSize: 10.sp,
+                              fontFamily: "Poppins-ExtraBold",
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
+                          Expanded(
+                            flex: 3,
+                            child: CText(
+                              msg: lieDetectorInstruction,
+                              fontSize: 4.sp,
+                              color: colorFont,
+                              height: .28.sp,
+                            ),
+                          ),
+                          Expanded(
+                            flex: 1,
+                            child: Button(
+                              name: "More...",
+                              onPressed: () {},
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ],
                 ),
               ),
+              MYVideoPlayer(
+                videoData: videoData,
+                flex: 5,
+              ),
+              const FlexSpacer(),
             ],
-          ),
-        ),
-        Expanded(
-          flex: 5,
-          child: Padding(
-            padding: EdgeInsets.fromLTRB(5.sp, 0, 5.sp, 5.sp),
-            child: WebVideoPlayer(
-              videoData: videoData,
-            ),
           ),
         ),
         const FlexSpacer(),

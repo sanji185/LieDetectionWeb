@@ -54,7 +54,7 @@ class _WebVideoPlayerState extends State<WebVideoPlayer> {
             ),
           ),
           videoFit: BoxFit.contain,
-          backgroundColor: colorPrimary,
+          backgroundColor: Color.alphaBlend(colorPrimary, colorSecondary),
           // aspectRatioWhenLoading: 4 / 3,
         ),
       ),
